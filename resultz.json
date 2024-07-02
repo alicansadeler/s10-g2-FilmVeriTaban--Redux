@@ -1,0 +1,168 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 9,
+  "numPassedTests": 0,
+  "numFailedTests": 9,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1719906941628,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
+          "status": "failed",
+          "title": "Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
+          "duration": 29,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Favorileri Gizle butonu tıklandıkça, metni Favorileri göster ve Favorileri gizle arasında değişiyor.",
+          "status": "failed",
+          "title": "Favorileri Gizle butonu tıklandıkça, metni Favorileri göster ve Favorileri gizle arasında değişiyor.",
+          "duration": 7,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Tüm filmler ekranda gösteriliyor",
+          "status": "failed",
+          "title": "Tüm filmler ekranda gösteriliyor",
+          "duration": 5,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Detay butonu film detaylarını gösteriyor.",
+          "status": "failed",
+          "title": "Detay butonu film detaylarını gösteriyor.",
+          "duration": 5,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
+          "status": "failed",
+          "title": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
+          "duration": 5,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine 2. kez eklemiyor",
+          "status": "failed",
+          "title": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine 2. kez eklemiyor",
+          "duration": 6,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
+          "status": "failed",
+          "title": "sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
+          "duration": 4,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekleniyor ve tüm filmler sayfası açılıyor.",
+          "status": "failed",
+          "title": "Yeni film ekleniyor ve tüm filmler sayfası açılıyor.",
+          "duration": 3,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AddMovieForm componentinde preventDefault kullanılmış",
+          "status": "failed",
+          "title": "AddMovieForm componentinde preventDefault kullanılmış",
+          "duration": 4,
+          "failureMessages": [
+            "store.getState is not a function"
+          ],
+          "location": {
+            "line": 1076,
+            "column": 51
+          }
+        }
+      ],
+      "startTime": 1719906945583,
+      "endTime": 1719906945651,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-zvrcsr/src/__tests__/index.test.jsx"
+    }
+  ]
+}
