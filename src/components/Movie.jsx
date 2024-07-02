@@ -7,7 +7,7 @@ const Movie = (props) => {
   const { id } = useParams();
   const history = useHistory();
 
-  const movies = useSelector((store) => store.movies);
+  const movies = useSelector((store) => store.movieReducer.movies);
   const movie = movies.find((movie) => movie.id === Number(id));
 
   const dispatch = useDispatch();
@@ -16,7 +16,9 @@ const Movie = (props) => {
     dispatch(deleteMovie(movie.id));
     history.push(`/movies`);
   };
-
+  const displayFavorites = useSelector(
+    (store) => store.favoritesReducer.displayFavorites
+  );
   return (
     <div className="bg-white rounded-md shadow flex-1">
       <div className="p-5 pb-3 border-b border-zinc-200">

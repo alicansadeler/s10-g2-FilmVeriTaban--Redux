@@ -1,17 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const FavoriteMovieList = (props) => {
-  const favorites = [];
+  const favorites = useSelector((store) => store.favoritesReducer.favorites);
 
   return (
     <div className="flex-1 sm:max-w-[250px] p-5 pr-5 bg-white shadow rounded-md">
       <h5 className="font-bold">Favori Filmler</h5>
       {
         <div className="pt-3 text-sm">
-          {favorites.map((movie) => (
+          {favorites.map((movie, index) => (
             <Link
-              key={movie.id}
+              key={index}
               className="py-1 flex gap-2 justify-between"
               to={`/movies/${movie.id}`}
               data-testid="favorite-movie"

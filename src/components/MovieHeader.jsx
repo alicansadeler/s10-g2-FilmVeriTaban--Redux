@@ -3,8 +3,10 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const MovieHeader = (props) => {
-  const appTitle = useSelector((myStore) => myStore.appTitle);
-  const displayFavorites = true;
+  const appTitle = useSelector((store) => store.movieReducer.appTitle);
+  const displayFavorites = useSelector(
+    (store) => store.favoritesReducer.displayFavorites
+  );
 
   return (
     <div className="flex justify-between items-center shadow rounded-md bg-white p-2 pl-3 my-3">
